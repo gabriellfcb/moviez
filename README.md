@@ -1,100 +1,149 @@
 # Documentação do Projeto: MovieMind - Jogo de Filmes
 
-Este documento explica de forma simples e direta o funcionamento do
-programa MovieMind, um jogo de navegador desenvolvido para testar o
-conhecimento dos usuários sobre filmes.
+Este documento apresenta o funcionamento do programa MovieMind, um jogo de navegador desenvolvido para aplicar conceitos de programação e estruturas de organização de dados através de uma experiência interativa com filmes.
 
-O objetivo do programa é criar uma experiência de entretenimento onde o
-jogador tenta descobrir um filme secreto através de dicas e comparações
-de informações cinematográficas.
+O projeto permite que o usuário tente descobrir um filme secreto utilizando informações cinematográficas como ano, gênero, diretor, país e nota.
 
-## 1. O que este programa faz?
+---
 
-O MovieMind é um jogo onde o usuário precisa descobrir qual é o filme
-secreto escolhido pelo sistema.
+# 1. Problema que o software resolve
 
-Para isso, o jogador digita nomes de filmes e recebe comparações entre o
-filme escolhido e o filme correto.
+Muitos usuários buscam formas simples de entretenimento que também estimulem o raciocínio e o conhecimento.
 
-O programa utiliza conceitos básicos de programação para organizar essas
-informações:
+O MovieMind resolve esse problema criando um desafio diário de filmes, onde o jogador precisa analisar informações e utilizar tentativas para encontrar a resposta correta.
 
-• O Banco de Filmes (Lista): Guarda todos os filmes disponíveis para que
-o sistema possa realizar buscas e escolher o desafio do dia.
+---
 
-• Sistema de Comparação: Analisa as características do filme escolhido
-pelo jogador e compara com o filme secreto.
+# 2. Solução proposta
 
-• Escolha Diária: Define automaticamente um filme diferente como desafio
-utilizando a data atual do computador.
+O sistema apresenta um filme secreto escolhido automaticamente e permite que o usuário pesquise possíveis respostas.
 
-## 2. Como as coisas funcionam por dentro
+A cada tentativa, o programa compara as informações do filme escolhido com o filme correto, mostrando quais características estão próximas ou diferentes.
 
-Para organizar os dados, o programa utiliza algumas lógicas importantes:
+---
 
-• Lista de Filmes:
+# 3. O que este programa faz?
 
-Exemplo prático: Pense em uma biblioteca com vários filmes cadastrados.
-Cada filme possui informações como nome, ano, gênero, diretor, país e
-nota.
+O MovieMind é um jogo onde o usuário precisa descobrir qual é o filme secreto escolhido pelo sistema.
 
-No programa: O arquivo "filmes.json" funciona como uma base de dados
-simples, armazenando todas essas informações para serem utilizadas
-durante o jogo.
+O programa utiliza:
+
+• Banco de Filmes (Lista):
+Guarda todos os filmes disponíveis para buscas e escolha do desafio.
 
 • Sistema de Comparação:
+Analisa as características do filme escolhido e compara com o filme secreto.
 
-Exemplo prático: Quando alguém tenta adivinhar um filme, é possível
-comparar características para descobrir se está próximo ou distante da
-resposta correta.
+• Escolha Diária:
+Define automaticamente um filme diferente utilizando a data atual.
 
-No programa: O sistema verifica informações como ano, gênero, diretor,
-país e nota, mostrando quais dados estão corretos ou diferentes.
+---
 
-• Escolha do Filme do Dia:
+# 4. Como funciona por dentro
 
-Exemplo prático: Assim como desafios diários encontrados em jogos
-online, o jogador recebe um novo desafio a cada dia.
+O arquivo "filmes.json" armazena as informações dos filmes.
 
-No programa: A data atual é utilizada para escolher automaticamente qual
-filme será o desafio.
+Cada filme possui:
 
-## 3. Como usar o programa no computador
+- Nome;
+- Ano;
+- Gênero;
+- Diretor;
+- País;
+- Nota.
 
-Para executar e testar o projeto:
+O JavaScript realiza a busca, escolhe o filme secreto e compara os dados das tentativas.
 
-• O que você precisa: Um navegador atualizado (Google Chrome, Microsoft
-Edge, Firefox ou similar).
+---
 
-• Como executar:
+# 5. Arquitetura do Software
 
--   Baixe todos os arquivos do projeto.
+O sistema é dividido em três partes:
 
--   Mantenha o arquivo "filmes.json" na mesma pasta do "index.html".
+## Interface Web
 
--   Abra o arquivo "index.html" no navegador.
+Responsável pela interação com o usuário.
 
-• O que vai acontecer:
+## Motor do Jogo
 
-O programa irá carregar a lista de filmes, escolher automaticamente o
-filme secreto do dia e permitir que o usuário realize tentativas até
-encontrar a resposta.
+Desenvolvido em JavaScript e responsável pela lógica do sistema.
 
-## 4. Tecnologias utilizadas
+## Banco de Dados Local
 
-O projeto foi desenvolvido utilizando:
+Arquivo filmes.json responsável pelo armazenamento dos filmes.
 
-• HTML: Responsável pela estrutura da página.
+---
 
-• CSS: Responsável pela aparência e identidade visual do jogo.
+# 6. Modelo C4 Simplificado
 
-• JavaScript: Responsável pela lógica do funcionamento do sistema.
+Usuário
 
-• JSON: Utilizado para armazenar as informações dos filmes.
+↓
 
-## 5. Sobre os Direitos de Uso (Licença)
+Interface Web (HTML/CSS)
+
+↓
+
+Sistema do Jogo (JavaScript)
+
+↓
+
+Banco de Filmes (filmes.json)
+
+---
+
+# 7. Decisões Técnicas
+
+## HTML, CSS e JavaScript
+
+Escolhidos por permitirem uma aplicação simples, leve e executável diretamente no navegador.
+
+## JSON
+
+Escolhido para armazenar os filmes por ser organizado e fácil de atualizar.
+
+## Execução Local
+
+O projeto não depende de servidores ou serviços externos.
+
+---
+
+# 8. Documentação de API
+
+O MovieMind não possui uma API externa.
+
+A comunicação acontece localmente entre o JavaScript e o arquivo filmes.json.
+
+---
+
+# 9. Como executar o programa
+
+1. Baixe todos os arquivos do projeto.
+
+2. Mantenha index.html e filmes.json na mesma pasta.
+
+3. Abra o arquivo index.html no navegador.
+
+---
+
+# 10. Tecnologias utilizadas
+
+• HTML:
+Estrutura da aplicação.
+
+• CSS:
+Design e identidade visual.
+
+• JavaScript:
+Lógica do jogo.
+
+• JSON:
+Armazenamento dos filmes.
+
+---
+
+# 11. Direitos de Uso
 
 Este software foi desenvolvido para fins acadêmicos e de estudo.
 
-O projeto pode ser utilizado, modificado e compartilhado para
-aprendizado, mantendo os créditos dos autores originais.
+O projeto pode ser utilizado e modificado para aprendizado, mantendo os créditos dos autores originais.
