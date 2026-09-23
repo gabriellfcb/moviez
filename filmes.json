@@ -43,5 +43,1436 @@
     "diretor": "James Cameron",
     "pais": "EUA",
     "nota": 7.9
+  },
+  {
+    "id": 6,
+    "nome": "Cidade de Deus",
+    "ano": 2002,
+    "genero": "Drama",
+    "diretor": "Fernando Meirelles",
+    "pais": "Brasil",
+    "nota": 8.6
+  },
+  {
+    "id": 7,
+    "nome": "Parasita",
+    "ano": 2019,
+    "genero": "Suspense",
+    "diretor": "Bong Joon-ho",
+    "pais": "Coreia do Sul",
+    "nota": 8.6
+  },
+  {
+    "id": 8,
+    "nome": "O Senhor dos Anéis: A Sociedade do Anel",
+    "ano": 2001,
+    "genero": "Fantasia",
+    "diretor": "Peter Jackson",
+    "pais": "Nova Zelândia",
+    "nota": 8.8
+  },
+  {
+    "id": 9,
+    "nome": "Coringa",
+    "ano": 2019,
+    "genero": "Drama",
+    "diretor": "Todd Phillips",
+    "pais": "EUA",
+    "nota": 8.4
+  },
+  {
+    "id": 10,
+    "nome": "Pulp Fiction",
+    "ano": 1994,
+    "genero": "Crime",
+    "diretor": "Quentin Tarantino",
+    "pais": "EUA",
+    "nota": 8.9
+  },
+  {
+    "id": 11,
+    "nome": "A Origem",
+    "ano": 2010,
+    "genero": "Ficção Científica",
+    "diretor": "Christopher Nolan",
+    "pais": "EUA",
+    "nota": 8.8
+  },
+  {
+    "id": 12,
+    "nome": "Vingadores: Ultimato",
+    "ano": 2019,
+    "genero": "Ação",
+    "diretor": "Anthony Russo",
+    "pais": "EUA",
+    "nota": 8.4
+  },
+  {
+    "id": 13,
+    "nome": "Divertida Mente",
+    "ano": 2015,
+    "genero": "Animação",
+    "diretor": "Pete Docter",
+    "pais": "EUA",
+    "nota": 8.1
+  },
+  {
+    "id": 14,
+    "nome": "O Auto da Compadecida",
+    "ano": 2000,
+    "genero": "Comédia",
+    "diretor": "Guel Arraes",
+    "pais": "Brasil",
+    "nota": 8.7
+  },
+  {
+    "id": 15,
+    "nome": "Tropa de Elite",
+    "ano": 2007,
+    "genero": "Ação",
+    "diretor": "José Padilha",
+    "pais": "Brasil",
+    "nota": 8.0
+  },
+  {
+    "id": 16,
+    "nome": "A Viagem de Chihiro",
+    "ano": 2001,
+    "genero": "Animação",
+    "diretor": "Hayao Miyazaki",
+    "pais": "Japão",
+    "nota": 8.6
+  },
+  {
+    "id": 17,
+    "nome": "Clube da Luta",
+    "ano": 1999,
+    "genero": "Drama",
+    "diretor": "David Fincher",
+    "pais": "EUA",
+    "nota": 8.8
+  },
+  {
+    "id": 18,
+    "nome": "Whiplash",
+    "ano": 2014,
+    "genero": "Drama",
+    "diretor": "Damien Chazelle",
+    "pais": "EUA",
+    "nota": 8.5
+  },
+  {
+    "id": 19,
+    "nome": "Ratatouille",
+    "ano": 2007,
+    "genero": "Animação",
+    "diretor": "Brad Bird",
+    "pais": "EUA",
+    "nota": 8.1
+  },
+  {
+    "id": 20,
+    "nome": "Amores Brutos",
+    "ano": 2000,
+    "genero": "Drama",
+    "diretor": "Alejandro González Iñárritu",
+    "pais": "México",
+    "nota": 8.1
+  },
+  {
+    "id": 21,
+    "nome": "Forrest Gump",
+    "ano": 1994,
+    "genero": "Drama",
+    "diretor": "Robert Zemeckis",
+    "pais": "EUA",
+    "nota": 8.8
+  },
+  {
+    "id": 22,
+    "nome": "O Silêncio dos Inocentes",
+    "ano": 1991,
+    "genero": "Suspense",
+    "diretor": "Jonathan Demme",
+    "pais": "EUA",
+    "nota": 8.6
+  },
+  {
+    "id": 23,
+    "nome": "Cidadão Kane",
+    "ano": 1941,
+    "genero": "Drama",
+    "diretor": "Orson Welles",
+    "pais": "EUA",
+    "nota": 8.3
+  },
+  {
+    "id": 24,
+    "nome": "Casablanca",
+    "ano": 1942,
+    "genero": "Romance",
+    "diretor": "Michael Curtiz",
+    "pais": "EUA",
+    "nota": 8.5
+  },
+  {
+    "id": 25,
+    "nome": "Star Wars: Episódio IV - Uma Nova Esperança",
+    "ano": 1977,
+    "genero": "Ficção Científica",
+    "diretor": "George Lucas",
+    "pais": "EUA",
+    "nota": 8.6
+  },
+  {
+    "id": 26,
+    "nome": "Star Wars: Episódio V - O Império Contra-Ataca",
+    "ano": 1980,
+    "genero": "Ficção Científica",
+    "diretor": "Irvin Kershner",
+    "pais": "EUA",
+    "nota": 8.7
+  },
+  {
+    "id": 27,
+    "nome": "Star Wars: Episódio VI - O Retorno de Jedi",
+    "ano": 1983,
+    "genero": "Ficção Científica",
+    "diretor": "Richard Marquand",
+    "pais": "EUA",
+    "nota": 8.3
+  },
+  {
+    "id": 28,
+    "nome": "Star Wars: O Despertar da Força",
+    "ano": 2015,
+    "genero": "Ficção Científica",
+    "diretor": "J.J. Abrams",
+    "pais": "EUA",
+    "nota": 7.8
+  },
+  {
+    "id": 29,
+    "nome": "Jurassic Park",
+    "ano": 1993,
+    "genero": "Aventura",
+    "diretor": "Steven Spielberg",
+    "pais": "EUA",
+    "nota": 8.2
+  },
+  {
+    "id": 30,
+    "nome": "Tubarão",
+    "ano": 1975,
+    "genero": "Terror",
+    "diretor": "Steven Spielberg",
+    "pais": "EUA",
+    "nota": 8.0
+  },
+  {
+    "id": 31,
+    "nome": "E.T. - O Extraterrestre",
+    "ano": 1982,
+    "genero": "Ficção Científica",
+    "diretor": "Steven Spielberg",
+    "pais": "EUA",
+    "nota": 7.9
+  },
+  {
+    "id": 32,
+    "nome": "A Lista de Schindler",
+    "ano": 1993,
+    "genero": "Biografia",
+    "diretor": "Steven Spielberg",
+    "pais": "EUA",
+    "nota": 9.0
+  },
+  {
+    "id": 33,
+    "nome": "De Volta para o Futuro",
+    "ano": 1985,
+    "genero": "Ficção Científica",
+    "diretor": "Robert Zemeckis",
+    "pais": "EUA",
+    "nota": 8.5
+  },
+  {
+    "id": 34,
+    "nome": "Náufrago",
+    "ano": 2000,
+    "genero": "Drama",
+    "diretor": "Robert Zemeckis",
+    "pais": "EUA",
+    "nota": 7.8
+  },
+  {
+    "id": 35,
+    "nome": "Rocky - Um Lutador",
+    "ano": 1976,
+    "genero": "Drama",
+    "diretor": "John G. Avildsen",
+    "pais": "EUA",
+    "nota": 8.1
+  },
+  {
+    "id": 36,
+    "nome": "Os Infiltrados",
+    "ano": 2006,
+    "genero": "Crime",
+    "diretor": "Martin Scorsese",
+    "pais": "EUA",
+    "nota": 8.5
+  },
+  {
+    "id": 37,
+    "nome": "Touro Indomável",
+    "ano": 1980,
+    "genero": "Biografia",
+    "diretor": "Martin Scorsese",
+    "pais": "EUA",
+    "nota": 8.2
+  },
+  {
+    "id": 38,
+    "nome": "Os Bons Companheiros",
+    "ano": 1990,
+    "genero": "Crime",
+    "diretor": "Martin Scorsese",
+    "pais": "EUA",
+    "nota": 8.7
+  },
+  {
+    "id": 39,
+    "nome": "O Lobo de Wall Street",
+    "ano": 2013,
+    "genero": "Comédia",
+    "diretor": "Martin Scorsese",
+    "pais": "EUA",
+    "nota": 8.2
+  },
+  {
+    "id": 40,
+    "nome": "Cinema Paradiso",
+    "ano": 1988,
+    "genero": "Drama",
+    "diretor": "Giuseppe Tornatore",
+    "pais": "Itália",
+    "nota": 8.5
+  },
+  {
+    "id": 41,
+    "nome": "A Vida é Bela",
+    "ano": 1997,
+    "genero": "Comédia",
+    "diretor": "Roberto Benigni",
+    "pais": "Itália",
+    "nota": 8.6
+  },
+  {
+    "id": 42,
+    "nome": "O Poderoso Chefão II",
+    "ano": 1974,
+    "genero": "Drama",
+    "diretor": "Francis Ford Coppola",
+    "pais": "EUA",
+    "nota": 9.0
+  },
+  {
+    "id": 43,
+    "nome": "Amélie Poulain",
+    "ano": 2001,
+    "genero": "Romance",
+    "diretor": "Jean-Pierre Jeunet",
+    "pais": "França",
+    "nota": 8.3
+  },
+  {
+    "id": 44,
+    "nome": "Intocáveis",
+    "ano": 2011,
+    "genero": "Comédia",
+    "diretor": "Olivier Nakache",
+    "pais": "França",
+    "nota": 8.5
+  },
+  {
+    "id": 45,
+    "nome": "O Artista",
+    "ano": 2011,
+    "genero": "Drama",
+    "diretor": "Michel Hazanavicius",
+    "pais": "França",
+    "nota": 8.0
+  },
+  {
+    "id": 46,
+    "nome": "Gladiador",
+    "ano": 2000,
+    "genero": "Ação",
+    "diretor": "Ridley Scott",
+    "pais": "EUA",
+    "nota": 8.5
+  },
+  {
+    "id": 47,
+    "nome": "Blade Runner",
+    "ano": 1982,
+    "genero": "Ficção Científica",
+    "diretor": "Ridley Scott",
+    "pais": "EUA",
+    "nota": 8.1
+  },
+  {
+    "id": 48,
+    "nome": "Alien - O Oitavo Passageiro",
+    "ano": 1979,
+    "genero": "Terror",
+    "diretor": "Ridley Scott",
+    "pais": "EUA",
+    "nota": 8.5
+  },
+  {
+    "id": 49,
+    "nome": "Rain Man",
+    "ano": 1988,
+    "genero": "Drama",
+    "diretor": "Barry Levinson",
+    "pais": "EUA",
+    "nota": 8.0
+  },
+  {
+    "id": 50,
+    "nome": "Bacurau",
+    "ano": 2019,
+    "genero": "Suspense",
+    "diretor": "Kleber Mendonça Filho",
+    "pais": "Brasil",
+    "nota": 7.5
+  },
+  {
+    "id": 51,
+    "nome": "O Som ao Redor",
+    "ano": 2012,
+    "genero": "Drama",
+    "diretor": "Kleber Mendonça Filho",
+    "pais": "Brasil",
+    "nota": 7.2
+  },
+  {
+    "id": 52,
+    "nome": "Aquarius",
+    "ano": 2016,
+    "genero": "Drama",
+    "diretor": "Kleber Mendonça Filho",
+    "pais": "Brasil",
+    "nota": 7.5
+  },
+  {
+    "id": 53,
+    "nome": "Central do Brasil",
+    "ano": 1998,
+    "genero": "Drama",
+    "diretor": "Walter Salles",
+    "pais": "Brasil",
+    "nota": 8.0
+  },
+  {
+    "id": 54,
+    "nome": "Que Horas Ela Volta?",
+    "ano": 2015,
+    "genero": "Drama",
+    "diretor": "Anna Muylaert",
+    "pais": "Brasil",
+    "nota": 7.3
+  },
+  {
+    "id": 55,
+    "nome": "Ainda Estou Aqui",
+    "ano": 2024,
+    "genero": "Drama",
+    "diretor": "Walter Salles",
+    "pais": "Brasil",
+    "nota": 8.5
+  },
+  {
+    "id": 56,
+    "nome": "Tropa de Elite 2",
+    "ano": 2010,
+    "genero": "Ação",
+    "diretor": "José Padilha",
+    "pais": "Brasil",
+    "nota": 8.1
+  },
+  {
+    "id": 57,
+    "nome": "Estômago",
+    "ano": 2007,
+    "genero": "Drama",
+    "diretor": "Marcos Jorge",
+    "pais": "Brasil",
+    "nota": 7.4
+  },
+  {
+    "id": 58,
+    "nome": "Lisbela e o Prisioneiro",
+    "ano": 2003,
+    "genero": "Comédia",
+    "diretor": "Guel Arraes",
+    "pais": "Brasil",
+    "nota": 7.5
+  },
+  {
+    "id": 59,
+    "nome": "2 Filhos de Francisco",
+    "ano": 2005,
+    "genero": "Biografia",
+    "diretor": "Breno Silveira",
+    "pais": "Brasil",
+    "nota": 7.6
+  },
+  {
+    "id": 60,
+    "nome": "Bicho de Sete Cabeças",
+    "ano": 2001,
+    "genero": "Drama",
+    "diretor": "Laís Bodanzky",
+    "pais": "Brasil",
+    "nota": 7.5
+  },
+  {
+    "id": 61,
+    "nome": "O Grande Hotel Budapeste",
+    "ano": 2014,
+    "genero": "Comédia",
+    "diretor": "Wes Anderson",
+    "pais": "EUA",
+    "nota": 8.1
+  },
+  {
+    "id": 62,
+    "nome": "Ilha do Cão",
+    "ano": 2018,
+    "genero": "Animação",
+    "diretor": "Wes Anderson",
+    "pais": "EUA",
+    "nota": 7.9
+  },
+  {
+    "id": 63,
+    "nome": "Moonlight",
+    "ano": 2016,
+    "genero": "Drama",
+    "diretor": "Barry Jenkins",
+    "pais": "EUA",
+    "nota": 7.4
+  },
+  {
+    "id": 64,
+    "nome": "La La Land",
+    "ano": 2016,
+    "genero": "Musical",
+    "diretor": "Damien Chazelle",
+    "pais": "EUA",
+    "nota": 8.0
+  },
+  {
+    "id": 65,
+    "nome": "Birdman",
+    "ano": 2014,
+    "genero": "Drama",
+    "diretor": "Alejandro González Iñárritu",
+    "pais": "EUA",
+    "nota": 7.7
+  },
+  {
+    "id": 66,
+    "nome": "Nomadland",
+    "ano": 2020,
+    "genero": "Drama",
+    "diretor": "Chloé Zhao",
+    "pais": "EUA",
+    "nota": 7.3
+  },
+  {
+    "id": 67,
+    "nome": "Sem Tempo para Morrer",
+    "ano": 2021,
+    "genero": "Ação",
+    "diretor": "Cary Joji Fukunaga",
+    "pais": "Reino Unido",
+    "nota": 7.3
+  },
+  {
+    "id": 68,
+    "nome": "Skyfall",
+    "ano": 2012,
+    "genero": "Ação",
+    "diretor": "Sam Mendes",
+    "pais": "Reino Unido",
+    "nota": 7.8
+  },
+  {
+    "id": 69,
+    "nome": "1917",
+    "ano": 2019,
+    "genero": "Guerra",
+    "diretor": "Sam Mendes",
+    "pais": "Reino Unido",
+    "nota": 8.2
+  },
+  {
+    "id": 70,
+    "nome": "Trainspotting",
+    "ano": 1996,
+    "genero": "Drama",
+    "diretor": "Danny Boyle",
+    "pais": "Reino Unido",
+    "nota": 8.1
+  },
+  {
+    "id": 71,
+    "nome": "Quem Quer Ser um Milionário?",
+    "ano": 2008,
+    "genero": "Drama",
+    "diretor": "Danny Boyle",
+    "pais": "Reino Unido",
+    "nota": 8.0
+  },
+  {
+    "id": 72,
+    "nome": "Bohemian Rhapsody",
+    "ano": 2018,
+    "genero": "Biografia",
+    "diretor": "Bryan Singer",
+    "pais": "Reino Unido",
+    "nota": 7.9
+  },
+  {
+    "id": 73,
+    "nome": "O Discurso do Rei",
+    "ano": 2010,
+    "genero": "Biografia",
+    "diretor": "Tom Hooper",
+    "pais": "Reino Unido",
+    "nota": 8.0
+  },
+  {
+    "id": 74,
+    "nome": "Harry Potter e a Pedra Filosofal",
+    "ano": 2001,
+    "genero": "Fantasia",
+    "diretor": "Chris Columbus",
+    "pais": "Reino Unido",
+    "nota": 7.6
+  },
+  {
+    "id": 75,
+    "nome": "Harry Potter e o Prisioneiro de Azkaban",
+    "ano": 2004,
+    "genero": "Fantasia",
+    "diretor": "Alfonso Cuarón",
+    "pais": "Reino Unido",
+    "nota": 7.9
+  },
+  {
+    "id": 76,
+    "nome": "Roma",
+    "ano": 2018,
+    "genero": "Drama",
+    "diretor": "Alfonso Cuarón",
+    "pais": "México",
+    "nota": 7.7
+  },
+  {
+    "id": 77,
+    "nome": "O Senhor dos Anéis: As Duas Torres",
+    "ano": 2002,
+    "genero": "Fantasia",
+    "diretor": "Peter Jackson",
+    "pais": "Nova Zelândia",
+    "nota": 8.8
+  },
+  {
+    "id": 78,
+    "nome": "O Senhor dos Anéis: O Retorno do Rei",
+    "ano": 2003,
+    "genero": "Fantasia",
+    "diretor": "Peter Jackson",
+    "pais": "Nova Zelândia",
+    "nota": 9.0
+  },
+  {
+    "id": 79,
+    "nome": "Toy Story",
+    "ano": 1995,
+    "genero": "Animação",
+    "diretor": "John Lasseter",
+    "pais": "EUA",
+    "nota": 8.3
+  },
+  {
+    "id": 80,
+    "nome": "Wall-E",
+    "ano": 2008,
+    "genero": "Animação",
+    "diretor": "Andrew Stanton",
+    "pais": "EUA",
+    "nota": 8.4
+  },
+  {
+    "id": 81,
+    "nome": "Up - Altas Aventuras",
+    "ano": 2009,
+    "genero": "Animação",
+    "diretor": "Pete Docter",
+    "pais": "EUA",
+    "nota": 8.3
+  },
+  {
+    "id": 82,
+    "nome": "Procurando Nemo",
+    "ano": 2003,
+    "genero": "Animação",
+    "diretor": "Andrew Stanton",
+    "pais": "EUA",
+    "nota": 8.2
+  },
+  {
+    "id": 83,
+    "nome": "Shrek",
+    "ano": 2001,
+    "genero": "Animação",
+    "diretor": "Andrew Adamson",
+    "pais": "EUA",
+    "nota": 7.9
+  },
+  {
+    "id": 84,
+    "nome": "Zootopia",
+    "ano": 2016,
+    "genero": "Animação",
+    "diretor": "Byron Howard",
+    "pais": "EUA",
+    "nota": 8.0
+  },
+  {
+    "id": 85,
+    "nome": "Coco",
+    "ano": 2017,
+    "genero": "Animação",
+    "diretor": "Lee Unkrich",
+    "pais": "EUA",
+    "nota": 8.4
+  },
+  {
+    "id": 86,
+    "nome": "Frozen - Uma Aventura Congelante",
+    "ano": 2013,
+    "genero": "Animação",
+    "diretor": "Chris Buck",
+    "pais": "EUA",
+    "nota": 7.4
+  },
+  {
+    "id": 87,
+    "nome": "O Rei Leão",
+    "ano": 1994,
+    "genero": "Animação",
+    "diretor": "Roger Allers",
+    "pais": "EUA",
+    "nota": 8.5
+  },
+  {
+    "id": 88,
+    "nome": "A Princesa Mononoke",
+    "ano": 1997,
+    "genero": "Animação",
+    "diretor": "Hayao Miyazaki",
+    "pais": "Japão",
+    "nota": 8.4
+  },
+  {
+    "id": 89,
+    "nome": "Seu Nome",
+    "ano": 2016,
+    "genero": "Animação",
+    "diretor": "Makoto Shinkai",
+    "pais": "Japão",
+    "nota": 8.4
+  },
+  {
+    "id": 90,
+    "nome": "Akira",
+    "ano": 1988,
+    "genero": "Animação",
+    "diretor": "Katsuhiro Otomo",
+    "pais": "Japão",
+    "nota": 8.0
+  },
+  {
+    "id": 91,
+    "nome": "Rashomon",
+    "ano": 1950,
+    "genero": "Drama",
+    "diretor": "Akira Kurosawa",
+    "pais": "Japão",
+    "nota": 8.2
+  },
+  {
+    "id": 92,
+    "nome": "Os Sete Samurais",
+    "ano": 1954,
+    "genero": "Aventura",
+    "diretor": "Akira Kurosawa",
+    "pais": "Japão",
+    "nota": 8.6
+  },
+  {
+    "id": 93,
+    "nome": "Drive My Car",
+    "ano": 2021,
+    "genero": "Drama",
+    "diretor": "Ryusuke Hamaguchi",
+    "pais": "Japão",
+    "nota": 7.7
+  },
+  {
+    "id": 94,
+    "nome": "Batman - O Cavaleiro das Trevas",
+    "ano": 2008,
+    "genero": "Ação",
+    "diretor": "Christopher Nolan",
+    "pais": "EUA",
+    "nota": 9.0
+  },
+  {
+    "id": 95,
+    "nome": "Batman Begins",
+    "ano": 2005,
+    "genero": "Ação",
+    "diretor": "Christopher Nolan",
+    "pais": "EUA",
+    "nota": 8.2
+  },
+  {
+    "id": 96,
+    "nome": "Oppenheimer",
+    "ano": 2023,
+    "genero": "Biografia",
+    "diretor": "Christopher Nolan",
+    "pais": "EUA",
+    "nota": 8.4
+  },
+  {
+    "id": 97,
+    "nome": "Duna",
+    "ano": 2021,
+    "genero": "Ficção Científica",
+    "diretor": "Denis Villeneuve",
+    "pais": "EUA",
+    "nota": 8.0
+  },
+  {
+    "id": 98,
+    "nome": "Duna: Parte 2",
+    "ano": 2024,
+    "genero": "Ficção Científica",
+    "diretor": "Denis Villeneuve",
+    "pais": "EUA",
+    "nota": 8.5
+  },
+  {
+    "id": 99,
+    "nome": "Blade Runner 2049",
+    "ano": 2017,
+    "genero": "Ficção Científica",
+    "diretor": "Denis Villeneuve",
+    "pais": "EUA",
+    "nota": 8.0
+  },
+  {
+    "id": 100,
+    "nome": "A Chegada",
+    "ano": 2016,
+    "genero": "Ficção Científica",
+    "diretor": "Denis Villeneuve",
+    "pais": "EUA",
+    "nota": 7.9
+  },
+  {
+    "id": 101,
+    "nome": "Ex Machina",
+    "ano": 2014,
+    "genero": "Ficção Científica",
+    "diretor": "Alex Garland",
+    "pais": "Reino Unido",
+    "nota": 7.7
+  },
+  {
+    "id": 102,
+    "nome": "Her",
+    "ano": 2013,
+    "genero": "Romance",
+    "diretor": "Spike Jonze",
+    "pais": "EUA",
+    "nota": 8.0
+  },
+  {
+    "id": 103,
+    "nome": "Corra!",
+    "ano": 2017,
+    "genero": "Terror",
+    "diretor": "Jordan Peele",
+    "pais": "EUA",
+    "nota": 7.7
+  },
+  {
+    "id": 104,
+    "nome": "Hereditário",
+    "ano": 2018,
+    "genero": "Terror",
+    "diretor": "Ari Aster",
+    "pais": "EUA",
+    "nota": 7.3
+  },
+  {
+    "id": 105,
+    "nome": "O Iluminado",
+    "ano": 1980,
+    "genero": "Terror",
+    "diretor": "Stanley Kubrick",
+    "pais": "EUA",
+    "nota": 8.4
+  },
+  {
+    "id": 106,
+    "nome": "Laranja Mecânica",
+    "ano": 1971,
+    "genero": "Drama",
+    "diretor": "Stanley Kubrick",
+    "pais": "EUA",
+    "nota": 8.3
+  },
+  {
+    "id": 107,
+    "nome": "2001: Uma Odisseia no Espaço",
+    "ano": 1968,
+    "genero": "Ficção Científica",
+    "diretor": "Stanley Kubrick",
+    "pais": "EUA",
+    "nota": 8.3
+  },
+  {
+    "id": 108,
+    "nome": "Dr. Fantástico",
+    "ano": 1964,
+    "genero": "Comédia",
+    "diretor": "Stanley Kubrick",
+    "pais": "EUA",
+    "nota": 8.4
+  },
+  {
+    "id": 109,
+    "nome": "Psicose",
+    "ano": 1960,
+    "genero": "Terror",
+    "diretor": "Alfred Hitchcock",
+    "pais": "EUA",
+    "nota": 8.5
+  },
+  {
+    "id": 110,
+    "nome": "Janela Indiscreta",
+    "ano": 1954,
+    "genero": "Suspense",
+    "diretor": "Alfred Hitchcock",
+    "pais": "EUA",
+    "nota": 8.5
+  },
+  {
+    "id": 111,
+    "nome": "Vertigo - Um Corpo que Cai",
+    "ano": 1958,
+    "genero": "Suspense",
+    "diretor": "Alfred Hitchcock",
+    "pais": "EUA",
+    "nota": 8.3
+  },
+  {
+    "id": 112,
+    "nome": "Se7en",
+    "ano": 1995,
+    "genero": "Suspense",
+    "diretor": "David Fincher",
+    "pais": "EUA",
+    "nota": 8.6
+  },
+  {
+    "id": 113,
+    "nome": "Garota Exemplar",
+    "ano": 2014,
+    "genero": "Suspense",
+    "diretor": "David Fincher",
+    "pais": "EUA",
+    "nota": 8.1
+  },
+  {
+    "id": 114,
+    "nome": "A Rede Social",
+    "ano": 2010,
+    "genero": "Drama",
+    "diretor": "David Fincher",
+    "pais": "EUA",
+    "nota": 7.7
+  },
+  {
+    "id": 115,
+    "nome": "Ford vs Ferrari",
+    "ano": 2019,
+    "genero": "Drama",
+    "diretor": "James Mangold",
+    "pais": "EUA",
+    "nota": 8.1
+  },
+  {
+    "id": 116,
+    "nome": "Logan",
+    "ano": 2017,
+    "genero": "Ação",
+    "diretor": "James Mangold",
+    "pais": "EUA",
+    "nota": 8.1
+  },
+  {
+    "id": 117,
+    "nome": "Homem-Aranha: Até o Aranhaverso",
+    "ano": 2018,
+    "genero": "Animação",
+    "diretor": "Bob Persichetti",
+    "pais": "EUA",
+    "nota": 8.4
+  },
+  {
+    "id": 118,
+    "nome": "Homem de Ferro",
+    "ano": 2008,
+    "genero": "Ação",
+    "diretor": "Jon Favreau",
+    "pais": "EUA",
+    "nota": 7.9
+  },
+  {
+    "id": 119,
+    "nome": "Pantera Negra",
+    "ano": 2018,
+    "genero": "Ação",
+    "diretor": "Ryan Coogler",
+    "pais": "EUA",
+    "nota": 7.3
+  },
+  {
+    "id": 120,
+    "nome": "Guardiões da Galáxia",
+    "ano": 2014,
+    "genero": "Ação",
+    "diretor": "James Gunn",
+    "pais": "EUA",
+    "nota": 8.0
+  },
+  {
+    "id": 121,
+    "nome": "Deadpool",
+    "ano": 2016,
+    "genero": "Ação",
+    "diretor": "Tim Miller",
+    "pais": "EUA",
+    "nota": 8.0
+  },
+  {
+    "id": 122,
+    "nome": "Mad Max: Estrada da Fúria",
+    "ano": 2015,
+    "genero": "Ação",
+    "diretor": "George Miller",
+    "pais": "Austrália",
+    "nota": 8.1
+  },
+  {
+    "id": 123,
+    "nome": "3 Idiotas",
+    "ano": 2009,
+    "genero": "Comédia",
+    "diretor": "Rajkumar Hirani",
+    "pais": "Índia",
+    "nota": 8.4
+  },
+  {
+    "id": 124,
+    "nome": "RRR",
+    "ano": 2022,
+    "genero": "Ação",
+    "diretor": "S. S. Rajamouli",
+    "pais": "Índia",
+    "nota": 7.9
+  },
+  {
+    "id": 125,
+    "nome": "Lagaan",
+    "ano": 2001,
+    "genero": "Drama",
+    "diretor": "Ashutosh Gowariker",
+    "pais": "Índia",
+    "nota": 8.1
+  },
+  {
+    "id": 126,
+    "nome": "Como Estrelas na Terra",
+    "ano": 2007,
+    "genero": "Drama",
+    "diretor": "Aamir Khan",
+    "pais": "Índia",
+    "nota": 8.4
+  },
+  {
+    "id": 127,
+    "nome": "Oldboy",
+    "ano": 2003,
+    "genero": "Suspense",
+    "diretor": "Park Chan-wook",
+    "pais": "Coreia do Sul",
+    "nota": 8.4
+  },
+  {
+    "id": 128,
+    "nome": "Decisão de Partir",
+    "ano": 2022,
+    "genero": "Suspense",
+    "diretor": "Park Chan-wook",
+    "pais": "Coreia do Sul",
+    "nota": 7.5
+  },
+  {
+    "id": 129,
+    "nome": "Estrada para Busan",
+    "ano": 2016,
+    "genero": "Terror",
+    "diretor": "Yeon Sang-ho",
+    "pais": "Coreia do Sul",
+    "nota": 7.6
+  },
+  {
+    "id": 130,
+    "nome": "A Separação",
+    "ano": 2011,
+    "genero": "Drama",
+    "diretor": "Asghar Farhadi",
+    "pais": "Irã",
+    "nota": 8.3
+  },
+  {
+    "id": 131,
+    "nome": "A Vida dos Outros",
+    "ano": 2006,
+    "genero": "Drama",
+    "diretor": "Florian Henckel von Donnersmarck",
+    "pais": "Alemanha",
+    "nota": 8.4
+  },
+  {
+    "id": 132,
+    "nome": "Adeus, Lênin!",
+    "ano": 2003,
+    "genero": "Comédia",
+    "diretor": "Wolfgang Becker",
+    "pais": "Alemanha",
+    "nota": 7.7
+  },
+  {
+    "id": 133,
+    "nome": "Metrópolis",
+    "ano": 1927,
+    "genero": "Ficção Científica",
+    "diretor": "Fritz Lang",
+    "pais": "Alemanha",
+    "nota": 8.3
+  },
+  {
+    "id": 134,
+    "nome": "Corra Lola Corra",
+    "ano": 1998,
+    "genero": "Suspense",
+    "diretor": "Tom Tykwer",
+    "pais": "Alemanha",
+    "nota": 7.7
+  },
+  {
+    "id": 135,
+    "nome": "Volver",
+    "ano": 2006,
+    "genero": "Drama",
+    "diretor": "Pedro Almodóvar",
+    "pais": "Espanha",
+    "nota": 7.5
+  },
+  {
+    "id": 136,
+    "nome": "Fale com Ela",
+    "ano": 2002,
+    "genero": "Drama",
+    "diretor": "Pedro Almodóvar",
+    "pais": "Espanha",
+    "nota": 7.9
+  },
+  {
+    "id": 137,
+    "nome": "O Labirinto do Fauno",
+    "ano": 2006,
+    "genero": "Fantasia",
+    "diretor": "Guillermo del Toro",
+    "pais": "México",
+    "nota": 8.2
+  },
+  {
+    "id": 138,
+    "nome": "A Forma da Água",
+    "ano": 2017,
+    "genero": "Fantasia",
+    "diretor": "Guillermo del Toro",
+    "pais": "EUA",
+    "nota": 7.3
+  },
+  {
+    "id": 139,
+    "nome": "O Segredo dos Seus Olhos",
+    "ano": 2009,
+    "genero": "Suspense",
+    "diretor": "Juan José Campanella",
+    "pais": "Argentina",
+    "nota": 8.2
+  },
+  {
+    "id": 140,
+    "nome": "Relatos Selvagens",
+    "ano": 2014,
+    "genero": "Comédia",
+    "diretor": "Damián Szifron",
+    "pais": "Argentina",
+    "nota": 8.1
+  },
+  {
+    "id": 141,
+    "nome": "Sussurros do Coração",
+    "ano": 1995,
+    "genero": "Animação",
+    "diretor": "Yoshifumi Kondo",
+    "pais": "Japão",
+    "nota": 7.9
+  },
+  {
+    "id": 142,
+    "nome": "Meu Amigo Totoro",
+    "ano": 1988,
+    "genero": "Animação",
+    "diretor": "Hayao Miyazaki",
+    "pais": "Japão",
+    "nota": 8.1
+  },
+  {
+    "id": 143,
+    "nome": "O Castelo Animado",
+    "ano": 2004,
+    "genero": "Animação",
+    "diretor": "Hayao Miyazaki",
+    "pais": "Japão",
+    "nota": 8.2
+  },
+  {
+    "id": 144,
+    "nome": "Império dos Sonhos",
+    "ano": 2006,
+    "genero": "Animação",
+    "diretor": "Satoshi Kon",
+    "pais": "Japão",
+    "nota": 7.5
+  },
+  {
+    "id": 145,
+    "nome": "Perfect Blue",
+    "ano": 1997,
+    "genero": "Terror",
+    "diretor": "Satoshi Kon",
+    "pais": "Japão",
+    "nota": 8.0
+  },
+  {
+    "id": 146,
+    "nome": "O Túmulo dos Vagalumes",
+    "ano": 1988,
+    "genero": "Drama",
+    "diretor": "Isao Takahata",
+    "pais": "Japão",
+    "nota": 8.5
+  },
+  {
+    "id": 147,
+    "nome": "Rebelde Sem Causa",
+    "ano": 1955,
+    "genero": "Drama",
+    "diretor": "Nicholas Ray",
+    "pais": "EUA",
+    "nota": 7.6
+  },
+  {
+    "id": 148,
+    "nome": "Doze Homens e uma Sentença",
+    "ano": 1957,
+    "genero": "Drama",
+    "diretor": "Sidney Lumet",
+    "pais": "EUA",
+    "nota": 9.0
+  },
+  {
+    "id": 149,
+    "nome": "Assassinato no Expresso Oriente",
+    "ano": 1974,
+    "genero": "Suspense",
+    "diretor": "Sidney Lumet",
+    "pais": "Reino Unido",
+    "nota": 7.7
+  },
+  {
+    "id": 150,
+    "nome": "Rocky IV",
+    "ano": 1985,
+    "genero": "Drama",
+    "diretor": "Sylvester Stallone",
+    "pais": "EUA",
+    "nota": 6.7
+  },
+  {
+    "id": 151,
+    "nome": "Nascido para Matar",
+    "ano": 1987,
+    "genero": "Guerra",
+    "diretor": "Stanley Kubrick",
+    "pais": "EUA",
+    "nota": 8.3
+  },
+  {
+    "id": 152,
+    "nome": "Apocalypse Now",
+    "ano": 1979,
+    "genero": "Guerra",
+    "diretor": "Francis Ford Coppola",
+    "pais": "EUA",
+    "nota": 8.4
+  },
+  {
+    "id": 153,
+    "nome": "Platoon",
+    "ano": 1986,
+    "genero": "Guerra",
+    "diretor": "Oliver Stone",
+    "pais": "EUA",
+    "nota": 8.1
+  },
+  {
+    "id": 154,
+    "nome": "O Resgate do Soldado Ryan",
+    "ano": 1998,
+    "genero": "Guerra",
+    "diretor": "Steven Spielberg",
+    "pais": "EUA",
+    "nota": 8.6
+  },
+  {
+    "id": 155,
+    "nome": "A Lagosta",
+    "ano": 2015,
+    "genero": "Comédia",
+    "diretor": "Yorgos Lanthimos",
+    "pais": "Irlanda",
+    "nota": 7.1
+  },
+  {
+    "id": 156,
+    "nome": "Pobres Criaturas",
+    "ano": 2023,
+    "genero": "Comédia",
+    "diretor": "Yorgos Lanthimos",
+    "pais": "Irlanda",
+    "nota": 7.9
+  },
+  {
+    "id": 157,
+    "nome": "Era uma Vez em Hollywood",
+    "ano": 2019,
+    "genero": "Comédia",
+    "diretor": "Quentin Tarantino",
+    "pais": "EUA",
+    "nota": 7.6
+  },
+  {
+    "id": 158,
+    "nome": "Bastardos Inglórios",
+    "ano": 2009,
+    "genero": "Guerra",
+    "diretor": "Quentin Tarantino",
+    "pais": "EUA",
+    "nota": 8.3
+  },
+  {
+    "id": 159,
+    "nome": "Kill Bill: Volume 1",
+    "ano": 2003,
+    "genero": "Ação",
+    "diretor": "Quentin Tarantino",
+    "pais": "EUA",
+    "nota": 8.2
+  },
+  {
+    "id": 160,
+    "nome": "Django Livre",
+    "ano": 2012,
+    "genero": "Ação",
+    "diretor": "Quentin Tarantino",
+    "pais": "EUA",
+    "nota": 8.4
+  },
+  {
+    "id": 161,
+    "nome": "Cães de Aluguel",
+    "ano": 1992,
+    "genero": "Crime",
+    "diretor": "Quentin Tarantino",
+    "pais": "EUA",
+    "nota": 8.3
+  },
+  {
+    "id": 162,
+    "nome": "Fargo",
+    "ano": 1996,
+    "genero": "Crime",
+    "diretor": "Joel Coen",
+    "pais": "EUA",
+    "nota": 8.1
+  },
+  {
+    "id": 163,
+    "nome": "Onde os Fracos Não Têm Vez",
+    "ano": 2007,
+    "genero": "Suspense",
+    "diretor": "Joel Coen",
+    "pais": "EUA",
+    "nota": 8.1
+  },
+  {
+    "id": 164,
+    "nome": "O Grande Lebowski",
+    "ano": 1998,
+    "genero": "Comédia",
+    "diretor": "Joel Coen",
+    "pais": "EUA",
+    "nota": 8.1
   }
 ]
