@@ -16,13 +16,23 @@ input{width:100%;padding:15px;border-radius:8px;border:1px solid #333;background
 .row{display:grid;grid-template-columns:2fr 1fr 1.5fr 1.5fr 1fr 1fr;gap:8px;margin-top:10px}
 .cell{padding:12px;background:#18181c;border-radius:8px;text-align:center}
 .good{background:#16a34a!important}.bad{background:#dc2626!important}
+.higher::after{content:" ⬆️"}.lower::after{content:" ⬇️"}
+.win-card{background:linear-gradient(135deg,#e50914,#7f0a10);color:#fff;padding:20px;border-radius:12px;text-align:center;margin-bottom:20px;display:none;max-width:700px;width:100%}
+.win-card h2{margin-bottom:8px}
+.status{color:#aaa;margin-bottom:10px}
 </style>
 </head>
 <body>
 <h1>🎬 MOVIEMIND</h1>
 <p class="subtitle">Descubra o filme secreto de hoje</p>
 
+<div id="winCard" class="win-card">
+ <h2>🎉 Parabéns!</h2>
+ <p>Você descobriu o filme do dia. Volte amanhã para um novo desafio!</p>
+</div>
+
 <div class="box">
+<p id="status" class="status"></p>
 <input id="search" placeholder="Digite um filme..." autocomplete="off">
 <div id="suggestions" class="suggestions"></div>
 
@@ -36,8 +46,9 @@ input{width:100%;padding:15px;border-radius:8px;border:1px solid #333;background
 
 <script>
 let filmes=[];
-let secreto;
+let secreto=null;
 let tentados=new Set();
+let fimDeJogo=false;
 
 function seed(){
  let d=new Date();
@@ -45,41 +56,74 @@ function seed(){
 }
 
 async function iniciar(){
- let r=await fetch("filmes.json");
- filmes=await r.json();
- secreto=filmes[Number(seed())%filmes.length];
+ try{
+  let r=await fetch("filmes.json");
+  if(!r.ok) throw new Error("HTTP "+r.status);
+  filmes=await r.json();
+  if(!Array.isArray(filmes)||filmes.length===0) throw new Error("filmes.json vazio ou inválido");
+  secreto=filmes[Number(seed())%filmes.length];
+ }catch(err){
+  console.error("Erro ao carregar filmes.json:", err);
+  status.textContent="⚠️ Não foi possível carregar filmes.json. Verifique se o arquivo existe na mesma pasta.";
+ }
 }
 
 search.addEventListener("input",()=>{
- let q=search.value.toLowerCase();
+ let q=search.value.toLowerCase().trim();
+ if(!q||fimDeJogo||!filmes.length){
+  suggestions.style.display="none";
+  suggestions.innerHTML="";
+  return;
+ }
+ let matches=filmes.filter(f=>f.nome.toLowerCase().includes(q)&&!tentados.has(f.id)).slice(0,5);
+ if(matches.length===0){
+  suggestions.style.display="none";
+  suggestions.innerHTML="";
+  return;
+ }
  suggestions.innerHTML="";
- filmes.filter(f=>f.nome.toLowerCase().includes(q)).slice(0,5)
- .forEach(f=>{
+ matches.forEach(f=>{
   let d=document.createElement("div");
   d.innerText=f.nome;
   d.onclick=()=>jogar(f);
   suggestions.appendChild(d);
  });
+ suggestions.style.display="block";
 });
 
+document.addEventListener("click",(e)=>{
+ if(!e.target.closest(".box")) suggestions.style.display="none";
+});
+
+function setaAno(valor){
+ if(valor==secreto.ano) return "good";
+ return "bad "+(secreto.ano>valor?"higher":"lower");
+}
+
 function jogar(f){
- if(tentados.has(f.id))return;
+ if(fimDeJogo||tentados.has(f.id))return;
  tentados.add(f.id);
  suggestions.innerHTML="";
+ suggestions.style.display="none";
  search.value="";
 
  let div=document.createElement("div");
  div.className="row";
  div.innerHTML=`
  <div class="cell ${f.nome==secreto.nome?'good':'bad'}">${f.nome}</div>
- <div class="cell ${f.ano==secreto.ano?'good':'bad'}">${f.ano}</div>
+ <div class="cell ${setaAno(f.ano)}">${f.ano}</div>
  <div class="cell ${f.genero==secreto.genero?'good':'bad'}">${f.genero}</div>
  <div class="cell ${f.diretor==secreto.diretor?'good':'bad'}">${f.diretor}</div>
  <div class="cell ${f.pais==secreto.pais?'good':'bad'}">${f.pais}</div>
  <div class="cell ${f.nota==secreto.nota?'good':'bad'}">${f.nota}</div>`;
  guesses.prepend(div);
 
- if(f.id===secreto.id) alert("🎉 Você descobriu o filme!");
+ if(f.id===secreto.id){
+  fimDeJogo=true;
+  winCard.style.display="block";
+  search.disabled=true;
+  search.placeholder="Você já descobriu o filme de hoje!";
+ }
 }
 iniciar();
 </script>
