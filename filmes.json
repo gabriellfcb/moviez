@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "nome": "Interestelar",
+    "ano": 2014,
+    "genero": "Ficção Científica",
+    "diretor": "Christopher Nolan",
+    "pais": "EUA",
+    "nota": 8.7
+  },
+  {
+    "id": 2,
+    "nome": "Titanic",
+    "ano": 1997,
+    "genero": "Romance",
+    "diretor": "James Cameron",
+    "pais": "EUA",
+    "nota": 7.9
+  },
+  {
+    "id": 3,
+    "nome": "Matrix",
+    "ano": 1999,
+    "genero": "Ação",
+    "diretor": "Lana Wachowski",
+    "pais": "EUA",
+    "nota": 8.7
+  },
+  {
+    "id": 4,
+    "nome": "O Poderoso Chefão",
+    "ano": 1972,
+    "genero": "Drama",
+    "diretor": "Francis Ford Coppola",
+    "pais": "EUA",
+    "nota": 9.2
+  },
+  {
+    "id": 5,
+    "nome": "Avatar",
+    "ano": 2009,
+    "genero": "Fantasia",
+    "diretor": "James Cameron",
+    "pais": "EUA",
+    "nota": 7.9
+  }
+]
