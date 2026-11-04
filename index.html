@@ -48,6 +48,13 @@ h1{color:var(--red);font-size:42px;margin:0}
 <div class="box">
   <p id="status" class="err"></p>
 
+  <div id="inicio" class="result">
+    <div style="font-size:64px;line-height:1">🎬</div>
+    <h2>Pronto para o quiz do dia?</h2>
+    <p>10 perguntas sobre diretor, ano, gênero e nota dos filmes. Um quiz novo todos os dias!</p>
+    <button id="btnIniciar" class="btn">▶ Iniciar quiz</button>
+  </div>
+
   <div id="quiz" style="display:none">
     <div class="top"><span id="contador"></span><span id="pontos"></span></div>
     <div class="bar"><i id="progresso"></i></div>
@@ -303,13 +310,14 @@ async function iniciar(){
     if (!r.ok) throw new Error('HTTP ' + r.status);
     filmes = await r.json();
     if (!Array.isArray(filmes) || filmes.length < 10) throw new Error('filmes.json vazio ou inválido');
-    comecar(criarRng(seed()));
+    $('inicio').style.display = 'block';
   }catch(err){
     console.error('Erro ao carregar filmes.json:', err);
     $('status').textContent = '⚠️ Não foi possível carregar filmes.json. Verifique se o arquivo está na mesma pasta e abra o site por um servidor (não direto do arquivo).';
   }
 }
 
+$('btnIniciar').onclick = () => { som.clique(); $('inicio').style.display = 'none'; comecar(criarRng(seed())); };
 $('proxima').onclick = proxima;
 $('reiniciar').onclick = () => { som.clique(); comecar(criarRng(Math.random())); };
 document.querySelectorAll('.btn').forEach(b => b.addEventListener('mouseenter', som.hover));
